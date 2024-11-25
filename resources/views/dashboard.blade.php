@@ -19,10 +19,13 @@
             <div class="col-md-3 col-lg-2 p-3  ">
                 <ul class="nav flex-column">
                     <li class="nav-item">
+                        <a class="nav-link text-dark" href="{{ route('activerules') }}">Active Rules</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-dark" href="{{ route('newrule') }}">New Rule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Modify Rule</a>
+                        <a class="nav-link text-dark" href="{{ route('modifyrule') }}">Modify Rule</a>
                     </li>
                 </ul>
             </div>

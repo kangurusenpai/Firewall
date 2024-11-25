@@ -18,4 +18,14 @@ class DasboardController extends Controller
             'classrooms'=> Classroom::all()
         ]);
     }
+    public function activerules(){
+        return view('layouts.activeRules',[
+            'classrooms'=> Classroom::all()
+        ]);
+    }
+    public function modifyrule(){
+        return view('layouts.modifyRule',[
+            'classrooms'=> Classroom::all()
+        ]);
+    }
 }
